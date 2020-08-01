@@ -9,32 +9,54 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * Function declarations
  *
- * <Add Extended Description Here>
+ * All the function declarations are mentioned in this
+ 	header file
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Abinay Gangireddigari	
+ * @date 7/30/2020
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
+void print_array();
+unsigned char find_median();
+unsigned char find_mean();
+unsigned char find_maximum();
+unsigned char find_minimum();
+void sort_array();
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+/* print_array function
+
+This function takes the address of the array and prints out
+the elements in it
+*/
+
+/* find_median
+
+Finds out the median when the sorted array(either ascending
+or descending) is given as an input argument*/
+
+
+/*find_mean
+
+Calculates the mean */
+
+/* find_maximum,find_minimum
+
+Finds out the largest and the smallest values in the array
+respectively. */
+
+/*	sort_array
+
+This function sorts the array in the descending order.
+I have used Insertion sort technique as no guidelines were
+given to use which algorithm for sorting.
+*/
 
 
 #endif /* __STATS_H__ */
