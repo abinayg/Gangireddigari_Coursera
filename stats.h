@@ -23,12 +23,12 @@
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
-void print_array();
-unsigned char find_median();
-unsigned char find_mean();
-unsigned char find_maximum();
-unsigned char find_minimum();
-void sort_array();
+void print_array(unsigned char *a,int size);
+unsigned char find_median(unsigned char a[],int size);
+unsigned char find_mean(unsigned char a[],int size);
+unsigned char find_maximum(unsigned char a[],int size);
+unsigned char find_minimum(unsigned char a[],int size);
+void sort_array(unsigned char *a, int n);
 
 /* print_array function
 
